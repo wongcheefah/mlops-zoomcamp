@@ -1,0 +1,10 @@
+name: exp_tracking
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - ipykernel=6.29.3
+  - pip=24.0
+  - pip:
+    - -r requirements.txt
